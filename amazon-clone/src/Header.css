@@ -16,13 +16,13 @@
 }
 
 .header__optionBasket {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .header__basketCount {
-    margin-left: 10px;
-    margin-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .header__nav {
@@ -31,14 +31,14 @@
 }
 
 .header__option {
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
 }
 
 .header__optionLineOne {
-    font-size: 13px;
-    font-weight: 800;
+  font-size: 13px;
+  font-weight: 800;
 }
 
 .header__link {
