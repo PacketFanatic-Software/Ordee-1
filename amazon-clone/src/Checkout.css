@@ -1,8 +1,24 @@
 .checkout {
   display: flex;
-  padding: 20px;
+  padding: 20px 0px;
   background-color: white;
   height: max-content;
+}
+
+.checkoutProduct__image {
+  object-fit: contain;
+  width: 100px;
+  height: 180px;
+  margin-right: 100px;
+  
+}
+
+.checkoutProduct__rating {
+  display: flex;
+}
+
+.checkoutProduct__info {
+  padding-left: 10px;
 }
 
 .checkout__title {
@@ -13,5 +29,5 @@
 
 .checkout__ad {
   width: 100%;
-  margin-bottom: -15px;
+  margin-bottom: 0px;
 }

@@ -16,14 +16,14 @@ function Home() {
             <div className="home__row">
             <Product
             id="123213341"
-            title="The Lean Startup: How constant Innovation Creates Radically Successful Business Paperback"
+            title= <strong>"The Lean Startup: How constant Innovation Creates Radically Successful Business Paperback"</strong>
             price={11.96}
             rating={5}
             image="https://m.media-amazon.com/images/I/51N-u8AsmdL.jpg" 
             />
             <Product
             id="123213342"
-            title="Minecraft - Nintendo Switch"
+            title= <strong>"Minecraft - Nintendo Switch"</strong>
             price={59.99}
             rating={3}
             image="https://images-na.ssl-images-amazon.com/images/I/81nxNas5onL._SL1500_.jpg" 
@@ -32,21 +32,21 @@ function Home() {
             <div className="home__row">
             <Product
             id="123213343"
-            title="Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display,Backlit Keyboard,Silver"
+            title= <strong>Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display,Backlit Keyboard,Silver"</strong>
             price={359.99}
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/81vNRgHlqGL._AC_SL1500_.jpg" 
             />
             <Product
             id="123213344"
-            title="Samsung Galaxy Tab S6 Lite 10.4, 64GB WiFi Tablet Oxford Gray"
+            title= <strong>"Samsung Galaxy Tab S6 Lite 10.4, 64GB WiFi Tablet Oxford Gray"</strong>
             price={299.99}
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/718B6zl%2Bb6L._AC_SL1500_.jpg" 
             />
             <Product
             id="123213345"
-            title="Creative Pebble 2.0 USB-Powered Desktop Speakers for Pcs and Laptops (Black)"
+            title= <strong>"Creative Pebble 2.0 USB-Powered Desktop Speakers for Pcs and Laptops (Black)"</strong>
             price={19.99}
             rating={3}
             image="https://images-na.ssl-images-amazon.com/images/I/31lrbOsJ2qL._AC_.jpg" 
@@ -55,7 +55,7 @@ function Home() {
             <div className="home__row">
             <Product
             id="123213346"
-            title="Vinsguir Ab Roller for Abs Workout, Ab Roller Wheel Exercise Equipment for Core Workout, Ab Wheel Roller for Home Gym, Ab Workout Equipment for Abdominal Exercise"
+            title= <strong>"Vinsguir Ab Roller for Abs Workout, Ab Roller Wheel Exercise Equipment for Core Workout, Ab Wheel Roller for Home Gym, Ab Workout Equipment for Abdominal Exercise"</strong>
             price={16.96}
             rating={5}
             image="https://images-na.ssl-images-amazon.com/images/I/718gZNGDWmL._AC_SL1500_.jpg" 
