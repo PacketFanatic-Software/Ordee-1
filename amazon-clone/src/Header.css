@@ -10,8 +10,7 @@
 .header__logo {
   width: 100px;
   object-fit: contain;
-  margin-left:  20px;
-  margin-right: 20px;
+  margin: 0 20px;
   margin-top: 18px;
 }
 
@@ -21,8 +20,7 @@
 }
 
 .header__basketCount {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 0px 10px;
 }
 
 .header__nav {
@@ -33,10 +31,15 @@
 .header__option {
   display: flex;
   flex-direction: column;
-  margin-left: 10px;
+  margin: 0px 10px;
 }
 
 .header__optionLineOne {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.header__optionLineTwo{
   font-size: 13px;
   font-weight: 800;
 }

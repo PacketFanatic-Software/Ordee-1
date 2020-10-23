@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "clone-668b1"
+    "default": "clone-668b1",
+    "staging": "clone-db923"
   }
 }
