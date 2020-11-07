@@ -1,0 +1,39 @@
+.page {
+  display: flex;
+}
+
+.background {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -2;
+  margin-bottom: 10px;
+}
+
+.logo {
+  margin-left: 450px;
+  margin-top: 125px;
+  z-index: 1;
+  width: 590px;
+  height: 300px;
+  opacity: 70%;
+  padding: 30px;
+  border-radius: 0px 90px;
+}
+
+.text {
+  text-align: center;
+  margin-top: -25px;
+  margin-left: 455px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: monospace;
+  color: rgb(204, 85, 101);
+  font-stretch: wider;
+  padding: 5px;
+}
+
+.link {
+  text-decoration: none;
+}
