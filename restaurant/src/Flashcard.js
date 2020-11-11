@@ -21,17 +21,28 @@ export default function Flashcard({ flashcard }) {
 
 
     return (
+        
         <div
         className={`card ${flip ? `flip` : ''}`}
-        // style={{ height: height }}
+        
         onClick={() => setFlip(!flip)}
         >
+            {/* image */}
+            {/* <div className="image">
+                <img className="card_bg"
+                src="https://img.freepik.com/free-photo/blank-notebook-text-note-wooden-surface-with-copy-sapce_1339-110939.jpg?size=626&ext=jpg"
+                alt=""
+                ></img>
+            </div> */}
+
             <div className="front" ref={frontEl}>
                 {flashcard.question}
+                
                 <div className="flashcard-options">
                     {flashcard.options.map(option => {
                         return <div className="flashcard-option">{option}</div>
                     })}
+                    
                 </div>
             </div>
             <div className="back" ref={backEl}>{flashcard.answer}</div>

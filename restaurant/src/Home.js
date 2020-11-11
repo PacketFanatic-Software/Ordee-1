@@ -2,25 +2,42 @@ import React, { useState } from 'react'
 import './Home.css'
 import FlashcardList from './FlashcardList'
 
+
 export default function Home() {
   
     const [flashcards] = useState(SAMPLE_FLASHCARDS)
     return (
+
       <div className="container">
       <FlashcardList flashcards={flashcards} />
+      <div className="page_background">
+        <img className="bg_image"
+        src={'./grey.jpg'}
+        alt=""
+        >
+        </img>
+      </div>
+      
       <nav className="myheader">
-         <div className="font">
-         <div className="first">
-         <strong>Blah</strong>
-         </div>
-         <div className="second">
-         <p><strong>Blah</strong></p>
-         </div>         
-         <div className="third">
-         <p><strong>Blah</strong></p>
-         </div> 
-         </div>
+        <div className="font">
+        <div className="first">
+        <strong>Blah</strong>
+        </div>
+        <div className="second">
+        <p><strong>Blah</strong></p>
+        </div>
+        <div className="third">
+        <p><strong>Blah</strong></p>
+        </div>
+        </div> 
+      
+  
+    );
+  }
+});
+
     </nav>
+  
     </div>
   
     );

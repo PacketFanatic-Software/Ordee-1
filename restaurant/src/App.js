@@ -11,6 +11,9 @@ function App() {
     <div className="App">
      <Switch>
        <Route path="/Home">
+       <div className="bell">
+                      <h1> 🔔 </h1>
+                     </div>
        <Header />
        </Route>
        <Route path="/">

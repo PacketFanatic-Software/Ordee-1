@@ -13,13 +13,13 @@
 
 .logo {
   margin-left: 450px;
-  margin-top: 125px;
+  margin-top: 155px;
   z-index: 1;
-  width: 590px;
-  height: 300px;
-  opacity: 70%;
+  width: 420px;
+  height: 420px;
+  opacity: 85%;
   padding: 30px;
-  border-radius: 0px 90px;
+  border-radius: 50%;
 }
 
 .text {
@@ -29,7 +29,7 @@
   font-size: 25px;
   font-weight: bold;
   font-family: monospace;
-  color: rgb(204, 85, 101);
+  color: rgb(241, 241, 241);
   font-stretch: wider;
   padding: 5px;
 }
