@@ -12,20 +12,21 @@
 }
 
 .logo {
-  margin-left: 450px;
+  margin-left: 550px;
   margin-top: 155px;
   z-index: 1;
-  width: 420px;
-  height: 420px;
+  width: 430px;
+  height: 350px;
   opacity: 85%;
   padding: 30px;
-  border-radius: 50%;
+  border-radius: 0 150px;
 }
+
 
 .text {
   text-align: center;
   margin-top: -25px;
-  margin-left: 455px;
+  margin-left: 570px;
   font-size: 25px;
   font-weight: bold;
   font-family: monospace;

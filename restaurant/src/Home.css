@@ -78,16 +78,16 @@
   opacity: 85%;
 }
 
-.bell{
+/* .bell{
   z-index: 1;
   margin-top: -60px;
   margin-left: 700px;
-} 
+}  */
 
-.myheader{
+.navbar{
   background-color: rgb(9, 9, 17);
   display: flex;
-  height: 85px;
+  height: 100px;
   width: 100%;
   align-items: center;
   position: fixed;
@@ -101,7 +101,7 @@
   display: flex;
   color: rgb(255, 255, 255);
   font-size: 25px;
-  font-family: ;
+  font-family: Roboto;
   font-weight: 700;
   margin-left: 1150px;
 }

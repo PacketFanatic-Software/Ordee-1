@@ -7,7 +7,6 @@ export default function Home() {
   
     const [flashcards] = useState(SAMPLE_FLASHCARDS)
     return (
-
       <div className="container">
       <FlashcardList flashcards={flashcards} />
       <div className="page_background">
@@ -18,7 +17,7 @@ export default function Home() {
         </img>
       </div>
       
-      <nav className="myheader">
+      <nav className="navbar">
         <div className="font">
         <div className="first">
         <strong>Blah</strong>
@@ -30,16 +29,8 @@ export default function Home() {
         <p><strong>Blah</strong></p>
         </div>
         </div> 
-      
-  
-    );
-  }
-});
-
     </nav>
-  
     </div>
-  
     );
 }
 
@@ -73,7 +64,6 @@ const SAMPLE_FLASHCARDS = [
     ]
   }
 ]
-
 
 
 

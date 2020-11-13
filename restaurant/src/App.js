@@ -3,6 +3,8 @@ import Header from "./Home";
 import Home from "./Logo_Page";
 import './App.css';
 import React from 'react';
+import Sidebar from './Sidebar';
+
 
 function App() {
   
@@ -11,9 +13,12 @@ function App() {
     <div className="App">
      <Switch>
        <Route path="/Home">
-       <div className="bell">
-                      <h1> 🔔 </h1>
-                     </div>
+       <div className="App" id="outer-container">
+      <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
+      <div id="page-wrap">
+      
+      </div>
+    </div>
        <Header />
        </Route>
        <Route path="/">
@@ -24,5 +29,6 @@ function App() {
   </Router>  
   );
 }
+
 
 export default App;
