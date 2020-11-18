@@ -4,17 +4,17 @@
     width: 36px;
     height: 30px;
     left: 36px;
-    top: 42px;
+    top: 35px;
   }
   
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
-    background: #d4d5da;
+    background: #f7f5f5;
   }
   
   /* Color/shape of burger icon bars on hover*/
   .bm-burger-bars-hover {
-    background: #f3eeee;
+    background: #fff0f0;
   }
   
   /* Position and sizing of clickable cross button */
@@ -26,7 +26,7 @@
   
   /* Color/shape of close button cross */
   .bm-cross {
-    background: #ece8e8;
+    background:#f7f5f5;
   }
   
   /*
@@ -34,10 +34,10 @@
   Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
   */
   .bm-menu-wrap {
-    margin-top: 0px;
+    margin-top: 101px;
     position: fixed;
     height: 100%;
-    opacity: 90%;
+    opacity: 95%;
     z-index: -1;
   }
   
@@ -50,14 +50,13 @@
   
   /* Morph shape necessary with bubble or elastic */
   .bm-morph-shape {
-    fill: #12121dc4;
-    opacity: 70%;
+    fill: #000000;
+    opacity: 95%;
   }
   
   /* Wrapper for item list */
   /* .bm-item-list {
-    color: #e6d306;
-    padding: 0.8em;
+    padding: 0em;
   } */
   
   /* Individual item */
@@ -73,11 +72,11 @@
   /* Individual item */
 .bm-item {
     display: inline-block;
-    color: #e7e1e1;
+    color: #f0eaea;
     margin-bottom: 10px;
     text-align: left;
     text-decoration: none;
-    transition: color 0.2s;
+    /* transition: color 0.8s; */
   }
   
   .bm-item:hover {
