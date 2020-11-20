@@ -1,11 +1,11 @@
 import React from 'react';
-import { bubble as Menu } from 'react-burger-menu';
+import { stack as Menu } from 'react-burger-menu';
 import './Sidebar.css'
 
 export default props => {
   return (
     <Menu>
-      <a className="menu-item" href="/">
+      <a className="menu-item" href="/Login">
         Home
       </a>
       <a className="menu-item" href="/salads">

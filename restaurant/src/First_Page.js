@@ -1,34 +1,38 @@
 import React, { useState } from 'react'
 import {Link} from 'react-router-dom';
-import './Home.css'
+import './First_Page.css'
 import FlashcardList from './FlashcardList'
-import ReactCustomizableProgressbarProps from './ReactCustomizableProgressbar'
+import FlashcardList2 from './FlashcardList2'
 
-
-export default function Home() {
+export default function First_Page() {
   
     const [flashcards] = useState(SAMPLE_FLASHCARDS)
-    // const [flashcards] = useState(SAMPLE_FLASHCARDS2)
+    const [flashcards2] = useState(SAMPLE_FLASHCARDS2)
 
     return (
       <div className="container">
+        <div>
       <FlashcardList flashcards={flashcards} />
-      {/* <div className="page_background">
-        <img className="bg_image"
-        src={'./grey.jpg'}
-        alt=""
-        >
-        </img>
       </div>
-       */}
+      <div>
+      <FlashcardList2 flashcards2={flashcards2} />
+      </div>
       <nav className="navbar"> 
-      <Link className="navicon" to="/Login">
+      <Link className="navicon" to="/Next_Page">
       <div>
         <img className="navicon"
         src={'./ordee2.png'}
         alt=""
         />
       </div>
+      <Link className="usericon" to='/Next_Page'>
+        <div>
+          <img className="user_icon"
+          src={'./usericon.png'}
+          alt=""
+          />
+        </div>
+      </Link>
       </Link>
      </nav>
     </div>
@@ -96,6 +100,9 @@ const SAMPLE_FLASHCARDS2 = [
     ]
   }
 ]
+
+
+
 
 
 

@@ -19,34 +19,46 @@ body {
 } */
 
 .card-grid {
-  margin-top: 0px;
+  margin-top: 10px;
   margin-left: 55px;
   display: flex;
   align-items: center;
   width: 1430px;
   height: 630px;
-  /* border-radius: 50px 50px; */
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   gap: 6rem;
 }
 
+.card-grid2 {
+  margin-top: -230px;
+  margin-left: 55px;
+  display: flex;
+  align-items: center;
+  width: 1430px;
+  height: 630px;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 6rem;
+}
+
+
 .card {
   z-index: 1;
   font-size: 200%;
+  font-family: Century Gothic;
   font-weight: 600;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   border-radius: 360px 360px;
-  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3);
-  background-color: #f7f5f5;
-  border: 15px solid black;
-  border-width: 3.5px;
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #0fabd2;
+  border: 1px solid #085e72;
+  border-width: 0px;
   transform-style: preserve-3d;
   width: 355px;
-  height: 275px;
+  height: 280px;
   transition: 220ms;
   cursor: pointer;
   transform: perspective(1000px) rotateY(var(--rotate-y, 0))
@@ -55,7 +67,7 @@ body {
 
  .card:hover {
   --translate-y: -8px;
-  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 5px 1px rgba(3.1, 36.9, 44.7);
 }
 
 .card.flip {
@@ -65,8 +77,9 @@ body {
 .card .front,
 .card .back {
   position: absolute;
-  padding: 1rem;
+  padding: 0rem;
   backface-visibility: hidden;
+  
 } 
  
 .card .back {
@@ -77,10 +90,9 @@ body {
   margin-top: 10px;
   width: 360px;
   height: 218px;
-  /* border-radius: 360px; */
   margin-left: -10px;
   z-index: -3;
-  opacity: 85%;
+  opacity: 75%;
 }
 
 .navbar{
@@ -107,11 +119,14 @@ body {
 }
 
 
-.first{
-  margin: 30 80px;
-  margin-left: 60px;
-  margin-top: 5px;
-  font-weight: 200;
+.usericon{
+  margin-left: 535px;
+  margin-top: 25px;
+}
+
+.user_icon{
+  width: 50px;
+  height: 50px;
 }
 
 .second{
@@ -123,4 +138,6 @@ body {
   margin-left: 75px;
   margin-top: 5px;
 }
+
+
 

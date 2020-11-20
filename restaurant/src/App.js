@@ -1,11 +1,9 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Header from "./Home";
-import Home from "./Logo_Page";
+import Next_Page from "./Next_Page";
+import First_Page from "./First_Page";
 import './App.css';
 import React from 'react';
 import Sidebar from './Sidebar';
-import ReactNotification from 'react-notifications-component'
-
 
 function App() {
   
@@ -13,25 +11,17 @@ function App() {
     <Router>
     <div className="App">
      <Switch>
-       <Route path="/Home">
+       <Route path="/Next_Page">
+        <Next_Page /> 
+       </Route>
+       <Route path="/">
        <div className="App" id="outer-container">
       <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
       <div id="page-wrap">
       </div>
     </div>
-  
-    <div className="app-container">
-      <ReactNotification />
-    </div>
-       <Header />
+        <First_Page />
        </Route>
-       <Route path="/">
-        <Home />
-       </Route>
-       <Route path="/Login">
-        
-       </Route>
-      
      </Switch>
    </div>
   </Router>  

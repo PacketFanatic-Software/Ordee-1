@@ -1,25 +1,18 @@
-.page {
-  display: flex;
+.page{
+  background-color: #0d98ba;
+  /* display: flex; */
 }
 
-.background {
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  z-index: -2;
-  margin-bottom: 10px;
-}
 
 .logo {
   margin-left: 550px;
   margin-top: 155px;
   z-index: 1;
-  width: 430px;
-  height: 350px;
+  width: 370px;
+  height: 370px;
   opacity: 85%;
   padding: 30px;
-  border-radius: 0 150px;
+  border-radius: 360px 360px;
 }
 
 
