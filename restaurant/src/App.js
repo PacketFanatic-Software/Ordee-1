@@ -4,6 +4,7 @@ import First_Page from "./First_Page";
 import './App.css';
 import React from 'react';
 import Sidebar from './Sidebar';
+import Login from "./Login";
 
 function App() {
   
@@ -21,6 +22,9 @@ function App() {
       </div>
     </div>
         <First_Page />
+       </Route>
+       <Route exact path="/login">
+        <Login />
        </Route>
      </Switch>
    </div>

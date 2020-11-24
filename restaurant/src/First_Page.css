@@ -1,5 +1,9 @@
 body {
-  background-color: #f7f5f5;
+    line-height: 1.47059;
+    font-weight: 400;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial";
+    background-color: #fff;
+    font-style: normal;
   margin: 0;
   z-index: -1;
   margin-bottom: -10px;
@@ -20,45 +24,47 @@ body {
 
 .card-grid {
   margin-top: 10px;
-  margin-left: 55px;
+  margin-left: 120px;
   display: flex;
   align-items: center;
   width: 1430px;
-  height: 630px;
+  height: 620px;
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  gap: 6rem;
+  gap: 3rem;
 }
 
 .card-grid2 {
   margin-top: -230px;
-  margin-left: 55px;
+  margin-left: 120px;
   display: flex;
   align-items: center;
   width: 1430px;
   height: 630px;
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  gap: 6rem;
+  gap: 3rem;
 }
 
 
 .card {
+  font-size: 230%;
   z-index: 1;
-  font-size: 200%;
-  font-family: Century Gothic;
-  font-weight: 600;
   color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  border-radius: 360px 360px;
-  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
-  background-color: #0fabd2;
+  border-radius: 70px 70px; 
+  box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  -webkit-box-shadow: 5px 5px 5px rgba(114, 112, 112, 0.6);
+  box-shadow: 7px 7px 7px 7px rgba(189, 185, 185, 0.6);
+
+  background-color:  #0dbab1;
   border: 1px solid #085e72;
   border-width: 0px;
   transform-style: preserve-3d;
-  width: 355px;
-  height: 280px;
+  width: 330px;
+  height: 310px;
   transition: 220ms;
   cursor: pointer;
   transform: perspective(1000px) rotateY(var(--rotate-y, 0))
@@ -112,7 +118,7 @@ body {
 
 .navicon{
   display: flex;
-  margin-left: 350px;
+  margin-left: 390px;
   width: 180px;
   height: 100px;
   border-radius: 50px 50px;
@@ -120,7 +126,7 @@ body {
 
 
 .usericon{
-  margin-left: 535px;
+  margin-left: 630px;
   margin-top: 25px;
 }
 

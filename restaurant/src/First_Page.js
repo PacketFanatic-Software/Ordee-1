@@ -4,6 +4,7 @@ import './First_Page.css'
 import FlashcardList from './FlashcardList'
 import FlashcardList2 from './FlashcardList2'
 
+
 export default function First_Page() {
   
     const [flashcards] = useState(SAMPLE_FLASHCARDS)
@@ -51,7 +52,7 @@ const SAMPLE_FLASHCARDS = [
     id: 2, 
     question: 'Table 2',
     answer: 'Order',
-    options: [
+    options: [ 
     ]
   },
   {

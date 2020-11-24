@@ -1,33 +1,65 @@
-.page{
-  background-color: #0d98ba;
-  /* display: flex; */
+
+.login {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
-.logo {
-  margin-left: 550px;
-  margin-top: 155px;
-  z-index: 1;
-  width: 370px;
-  height: 370px;
-  opacity: 85%;
-  padding: 30px;
-  border-radius: 360px 360px;
+.login__container {
+  width: 300px;
+  margin: -120px auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid lightgray;
 }
 
-
-.text {
-  text-align: center;
-  margin-top: -25px;
-  margin-left: 570px;
-  font-size: 25px;
-  font-weight: bold;
-  font-family: monospace;
-  color: rgb(241, 241, 241);
-  font-stretch: wider;
-  padding: 5px;
+.login__container > h1 {
+  font-weight: 500;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  margin-bottom: 20px;
 }
 
-.link {
-  text-decoration: none;
+.login__container > form > h5 {
+  margin-bottom: 5px;
+  font-family: Calibri;
+  font-weight: 500;
+  font-size: 100%;
+}
+
+.login__container > form > input {
+  height: 30px;
+  width: 98%;
+  background-color: white;
+  margin-bottom: 10px;
+}
+.login__container > form > p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+.login__logo {
+  width: 650px;
+  height: 200px;
+  object-fit: contain;
+  margin: 100px 0px;
+}
+.login__signInBtn {
+  width: 100%;
+  background: #0d98ba ;
+  border: 1px solid;
+  padding: 10px 0px;
+  margin-top: 10px;
+  border-color: #0b85a2 #0b85a2 #0b85a2;
+  color: #111;
+}
+.login__registerBtn {
+  width: 100%;
+  background: lightgrey;
+  border: 1px solid;
+  padding: 10px 0px;
+  margin-top: 10px;
+  border-color: lightgrey;
+  color: #111;
 }
