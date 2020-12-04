@@ -1,0 +1,70 @@
+.login {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__container {
+  width: 300px;
+  margin: -120px auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid lightgray;
+}
+
+.login__container > h1 {
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.login__container > form > h5 {
+  margin-bottom: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 100%;
+}
+
+.login__container > form > input {
+  height: 30px;
+  width: 98%;
+  background-color: white;
+  margin-bottom: 10px;
+}
+.login__container > form > p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+.login__logo {
+  width: 650px;
+  height: 200px;
+  object-fit: contain;
+  margin: 100px 0px;
+}
+.login__signInBtn {
+  width: 100%;
+  background: #0d98ba;
+  border: 1px solid;
+  padding: 10px 0px;
+  margin-top: 10px;
+  border-color: #0b85a2 #0b85a2 #0b85a2;
+  color: #111;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  font-size: 110%;
+}
+.login__registerBtn {
+  width: 100%;
+  background: lightgrey;
+  border: 1px solid;
+  padding: 10px 0px;
+  margin-top: 10px;
+  border-color: lightgrey;
+  color: #111;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 110%;
+}

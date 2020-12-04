@@ -1,0 +1,57 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+  font-style: normal;
+  margin: 0;
+  z-index: -1;
+  margin-bottom: -10px;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+  background-color: black;
+  display: flex;
+  height: 90px;
+  width: 100%;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  margin-left: 0px;
+  opacity: 90%;
+  color: #fff;
+  font-weight: 100;
+}
+
+.navicon {
+  display: flex;
+  margin-left: 340px;
+  width: 180px;
+  height: 100px;
+  border-radius: 50px 50px;
+  margin-top: -9px;
+}
+
+.usericon {
+  margin-left: 550px;
+  margin-top: 10px;
+}
+
+.user_icon {
+  width: 85px;
+  height: 75px;
+}

@@ -5,7 +5,7 @@ import './Sidebar.css'
 export default props => {
   return (
     <Menu>
-      <a className="menu-item" href="/Login">
+      <a className="menu-item" href="/login">
         Home
       </a>
       <a className="menu-item" href="/salads">

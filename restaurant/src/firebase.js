@@ -3,14 +3,13 @@ import firebase from "firebase";
 
 const firebaseApp =firebase.initializeApp(
     {
-        apiKey: "AIzaSyBBeaFmdDPD4zCdgv0ppgXBY2yy3hZdXnU",
-        authDomain: "ordee-6349f.firebaseapp.com",
-        databaseURL: "https://ordee-6349f.firebaseio.com",
-        projectId: "ordee-6349f",
-        storageBucket: "ordee-6349f.appspot.com",
-        messagingSenderId: "374408757894",
-        appId: "1:374408757894:web:a8741e333645aa5137c707",
-        measurementId: "G-WSFX9MEETF"
+      apiKey: "AIzaSyAvCs-d0mR3JycLddv34GikdYAjudQSeso",
+      authDomain: "ordee-1e683.firebaseapp.com",
+      projectId: "ordee-1e683",
+      storageBucket: "ordee-1e683.appspot.com",
+      messagingSenderId: "82394903247",
+      appId: "1:82394903247:web:d5323c3d8c486f40227dba",
+      measurementId: "G-4KBPTZQX8J"
       });
 
 const db = firebaseApp.firestore();

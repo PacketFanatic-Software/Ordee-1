@@ -1,9 +1,11 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import './google-fonts/Aleo-Bold.ttf'
 ReactDOM.render(<App/>, document.getElementById('root'));
+
 
 ReactDOM.render(
   <React.StrictMode>

@@ -1,0 +1,64 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.card {
+  margin: 20px;
+  height: 280px;
+  width: 280px;
+  background-color: #0b85a2;
+  border-radius: 50%;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  font-size: 5vh;
+  font-weight: 600;
+  color: #fff;
+  -webkit-box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 12px 18px -6px rgba(37, 37, 37, 0.753);
+  transform-style: preserve-3d;
+  transition: 150ms;
+  transform: perspective(1000px) rotateY(var(--rotate-y, 0))
+    translateY(var(--translate-y, 0));
+}
+
+.card:hover {
+  --translate-y: -8px;
+  box-shadow: 0 0 5px 1px rgb(165, 166, 167);
+}
+
+.card.flip {
+  --rotate-y: 180deg;
+}
+
+.card .back {
+  transform: rotateY(180deg);
+}
+
+.card:hover {
+  --translate-y: -8px;
+  box-shadow: 0 0 5px 1px rgb(165, 166, 167);
+}
+
+.card .front,
+.card .back {
+  position: absolute;
+  padding: 1rem;
+  backface-visibility: hidden;
+}
+
+.grid {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 130px;
+  justify-content: center;
+  /* margin-left: 135px; */
+}
+
+.grid > div {
+  flex-basis: calc(25% - 40px);
+}
