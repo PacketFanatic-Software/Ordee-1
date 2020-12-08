@@ -30,10 +30,9 @@ body {
   align-items: center;
   position: fixed;
   top: 0;
-  z-index: 100;
+  z-index: 4;
   margin-left: 0px;
-  opacity: 90%;
-  color: #fff;
+  opacity: 1;
   font-weight: 100;
 }
 

@@ -1,80 +1,44 @@
   
-import React,{useEffect,useState} from "react";
+import React from "react";
 import "./Cards.css";
 import Cardsflip from "./Cardsflip";
-import {db} from "./firebase.js"
+
 
 
 function Cards(){
-  const[flip,setFlip] = useState(false);
-  const[posts,setPosts] = useState([]);
-  const[posts2,setPosts2] = useState([]);
-  const[posts3,setPosts3] = useState([]);
-  const[posts4,setPosts4] = useState([]);
-  const[posts5,setPosts5] = useState([]);
-  const[posts6,setPosts6] = useState([]);
-  const[posts7,setPosts7] = useState([]);
-  const[posts8,setPosts8] = useState([]);
-  {
-    db.collection('posts').doc('1').onSnapshot((doc) =>{
-      setPosts(doc.data().table)
-    });
-    
-      db.collection('posts').doc('2').onSnapshot((doc) =>{
-        setPosts2(doc.data().table)
-      });
-      db.collection('posts').doc('3').onSnapshot((doc) =>{
-        setPosts3(doc.data().table)
-      });
-   
-      db.collection('posts').doc('4').onSnapshot((doc) =>{
-        setPosts4(doc.data().table)
-      });
-      db.collection('posts').doc('5').onSnapshot((doc) =>{
-        setPosts5(doc.data().table)
-      });
-      db.collection('posts').doc('6').onSnapshot((doc) =>{
-        setPosts6(doc.data().table)
-      });
-      db.collection('posts').doc('7').onSnapshot((doc) =>{
-        setPosts7(doc.data().table)
-      });
-      db.collection('posts').doc('8').onSnapshot((doc) =>{
-        setPosts8(doc.data().table)
-      });
-  }
+  
   const cardInfo = [
     {
       title: 'Table 1',
-      text: posts,
+      text:"Order is here!",
     },
     {
       title: "Table 2",
-      text: posts2,
+      text: "Order is here!",
     },
     {
       title: "Table 3",
-      text: posts3,
+      text: "Order is here!",
     },
     {
         title: "Table 4",
-        text: posts4,
+        text: "Order is here!",
       },
       {
         title: "Table 5",
-        text: posts5,
+        text: "Order is here!",
       },
       {
         title: "Table 6",
-        text: posts6,
+        text: "Order is here!",
       },
       {
         title: "Table 7",
-        text: posts7,
+        text: "Order is here!",
       },
       {
         title: "Table 8",
-        text: posts8,
+        text: "Order is here!",
       },
     ];
   

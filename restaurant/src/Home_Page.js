@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
+import React from 'react'
 import {Link} from 'react-router-dom';
 import './Home_Page.css';
 
 export default function Home_Page() {
   
   return(
-      <nav className="navbar"> 
+    <nav className="navbar"> 
       <Link className="navicon" to="/">
       <div>
         <img className="navicon"

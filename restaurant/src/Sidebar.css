@@ -2,6 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 2vh;
+  
 }
 
 /* Position and sizing of burger button */
@@ -11,11 +12,13 @@ body {
   height: 28px;
   left: 30px;
   top: 35px;
+  
 }
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
   background: #f7f5f5;
+  
 }
 
 /* Color/shape of burger icon bars on hover*/
@@ -41,7 +44,7 @@ body {
   Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
   */
 .bm-menu-wrap {
-  margin-top: -40px;
+  margin-top: 20px;
   position: fixed;
   /* background-color: dodgerblue; */
   opacity: 95%;
